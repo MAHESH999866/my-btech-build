@@ -119,13 +119,17 @@ export function Projects() {
                 </div>
                 <div className="mt-5 flex gap-2">
                   <a
-                    href="#"
+                    href={p.github}
+                    target="_blank"
+                    rel="noreferrer"
                     className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg border border-border text-sm font-semibold hover:bg-accent transition-colors"
                   >
                     <Github className="w-4 h-4" /> GitHub
                   </a>
                   <a
-                    href="#"
+                    href={p.demo}
+                    target="_blank"
+                    rel="noreferrer"
                     className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
                   >
                     <ExternalLink className="w-4 h-4" /> Live Demo

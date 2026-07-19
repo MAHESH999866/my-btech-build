@@ -3,11 +3,11 @@ import { MapPin, GraduationCap, Building2, Award, Languages } from "lucide-react
 import { Section, SectionHeader } from "./Section";
 
 const infoCards = [
-  { icon: MapPin, label: "Location", value: "Hyderabad, India" },
+  { icon: MapPin, label: "Location", value: "Tirupati, India" },
   { icon: GraduationCap, label: "Degree", value: "B.Tech in CSE" },
-  { icon: Building2, label: "College", value: "XYZ Institute of Technology" },
-  { icon: Award, label: "CGPA", value: "8.7 / 10" },
-  { icon: Languages, label: "Languages", value: "English, Hindi, Telugu" },
+  { icon: Building2, label: "College", value: "Mohan Babu University" },
+  { icon: Award, label: "CGPA", value: "8.59 / 10" },
+  { icon: Languages, label: "Languages", value: "English, Telugu" },
 ];
 
 export function About() {
@@ -24,7 +24,7 @@ export function About() {
         >
           <h3 className="text-xl font-bold">Hello there 👋</h3>
           <p className="mt-3 text-muted-foreground leading-relaxed">
-            I am a passionate 3rd-year B.Tech student with an interest in Web Development,
+            I am a passionate 4th-year B.Tech student with an interest in Web Development,
             Programming, and Software Engineering. I enjoy building responsive websites and
             continuously learning new technologies to improve my problem-solving skills
             and development experience.

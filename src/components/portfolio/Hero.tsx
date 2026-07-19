@@ -60,10 +60,10 @@ export function Hero() {
             Open to internships & opportunities
           </span>
           <h1 className="mt-5 text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-            Hi, I'm <span className="gradient-text">Aarav Sharma</span>
+            Hi, I'm <span className="gradient-text">Durga MaheswaraRao</span>
           </h1>
           <p className="mt-4 text-lg sm:text-xl text-muted-foreground font-medium">
-            3rd Year B.Tech Student <span className="text-primary">|</span>{" "}
+            4th Year B.Tech Student <span className="text-primary">|</span>{" "}
             <span className="text-foreground">{typed}</span>
             <span className="inline-block w-0.5 h-5 bg-primary ml-0.5 animate-pulse align-middle" />
           </p>
@@ -127,14 +127,14 @@ export function Hero() {
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-3xl bg-gradient-to-br from-primary to-primary/60 p-1 shadow-2xl">
               <div className="w-full h-full rounded-3xl bg-card grid place-items-center overflow-hidden">
                 <div className="text-center">
-                  <div className="text-8xl font-bold gradient-text">AS</div>
+                  <div className="text-8xl font-bold gradient-text">DM</div>
                   <div className="mt-2 text-sm text-muted-foreground font-medium">Profile Photo</div>
                 </div>
               </div>
             </div>
             <div className="absolute -bottom-4 -left-4 px-4 py-2 rounded-2xl bg-card border border-border shadow-lg">
               <div className="text-xs text-muted-foreground">CGPA</div>
-              <div className="font-bold text-primary">8.7 / 10</div>
+              <div className="font-bold text-primary">8.59 / 10</div>
             </div>
             <div className="absolute -top-4 -right-4 px-4 py-2 rounded-2xl bg-card border border-border shadow-lg">
               <div className="text-xs text-muted-foreground">Projects</div>

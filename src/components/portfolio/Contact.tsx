@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from "react";
 import { motion } from "framer-motion";
-import { Mail, MapPin, Phone, Send } from "lucide-react";
+import { Mail, MapPin, Send } from "lucide-react";
 import { toast } from "sonner";
 import { z } from "zod";
 import { Section, SectionHeader } from "./Section";
@@ -45,9 +45,8 @@ export function Contact() {
           className="lg:col-span-2 space-y-4"
         >
           {[
-            { icon: Mail, label: "Email", value: "aarav.sharma@example.com" },
-            { icon: Phone, label: "Phone", value: "+91 98765 43210" },
-            { icon: MapPin, label: "Location", value: "Hyderabad, India" },
+            { icon: Mail, label: "Email", value: "dmsraop@gmail.com" },
+            { icon: MapPin, label: "Location", value: "Tirupati, India" },
           ].map((c) => (
             <div key={c.label} className="flex items-start gap-4 p-5 rounded-2xl bg-card border border-border hover:border-primary transition-colors">
               <span className="w-11 h-11 grid place-items-center rounded-xl bg-primary/10 text-primary shrink-0">

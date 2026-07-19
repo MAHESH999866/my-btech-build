@@ -6,20 +6,20 @@ const items = [
   {
     title: "B.Tech in Computer Science",
     place: "Mohan Babu University",
-    period: "2022 - Present",
-    score: "CGPA: 8.59 / 10",
+    period: "2026 - Present",
+    score: "CGPA: 8.68 / 10",
   },
   {
     title: "Intermediate (12th)",
-    place: "ABC Junior College",
+    place: "Sri Nidhi Junior College, Tiruvuru",
     period: "2021 - 2023",
-    score: "Percentage: 92%",
+    score: "Percentage: 75%",
   },
   {
     title: "SSC (10th)",
-    place: "DEF High School",
+    place: "Z P High School, Polisettipadu",
     period: "2020 - 2021",
-    score: "Percentage: 95%",
+    score: "Percentage: 94%",
   },
 ];
 

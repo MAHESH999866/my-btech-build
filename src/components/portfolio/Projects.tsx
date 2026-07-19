@@ -1,41 +1,64 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Github, ExternalLink, BookOpen, Users, Cloud, User } from "lucide-react";
+import { Github, ExternalLink, Sprout, GraduationCap, LineChart, Calculator, Gamepad2 } from "lucide-react";
 import { Section, SectionHeader } from "./Section";
 import { cn } from "@/lib/utils";
 
 const projects = [
   {
-    title: "Bookworms Online Bookstore",
-    description: "Responsive online bookstore website built using HTML, CSS, and JavaScript.",
+    title: "AgroMart-Farm",
+    description:
+      "AgroMart Farm is a responsive frontend e-commerce web application designed for farmers, built using HTML, CSS, and JavaScript.",
     tech: ["HTML", "CSS", "JavaScript"],
     category: "Web",
-    icon: BookOpen,
-    color: "from-blue-500 to-indigo-500",
+    icon: Sprout,
+    color: "from-emerald-500 to-lime-500",
+    github: "https://github.com/MAHESH999866/AgroMart-Farm.git",
+    demo: "https://mahesh999866.github.io/AgroMart-Farm/",
   },
   {
-    title: "Student Management System",
-    description: "Frontend design for managing student records, attendance, and grades.",
-    tech: ["React", "Tailwind", "TypeScript"],
+    title: "Student Grade Tracker",
+    description:
+      "A Java console-based application designed to track and manage student grades, utilizing OOP principles to calculate and display summary reports.",
+    tech: ["Java", "OOP"],
     category: "App",
-    icon: Users,
-    color: "from-emerald-500 to-teal-500",
+    icon: GraduationCap,
+    color: "from-indigo-500 to-blue-500",
+    github: "https://github.com/MAHESH999866/Student_Grade_Tracker.git",
+    demo: "https://github.com/MAHESH999866/Student_Grade_Tracker.git",
   },
   {
-    title: "Weather App",
-    description: "Real-time weather UI using OpenWeather API integration (frontend only).",
-    tech: ["React", "API", "CSS"],
+    title: "Stock Trading Tracker",
+    description:
+      "A Java console-based stock trading platform simulating market transactions with interactive menu-driven tools for portfolio management, share trading, and real-time wallet balance tracking.",
+    tech: ["Java", "OOP"],
     category: "App",
-    icon: Cloud,
-    color: "from-cyan-500 to-sky-500",
+    icon: LineChart,
+    color: "from-amber-500 to-orange-500",
+    github: "https://github.com/MAHESH999866/Stock-trading-tracker.git",
+    demo: "https://github.com/MAHESH999866/Stock-trading-tracker.git",
   },
   {
-    title: "Portfolio Website",
-    description: "Personal portfolio showcasing my skills, projects, and learning journey.",
-    tech: ["React", "Tailwind", "Framer Motion"],
+    title: "CalcMate",
+    description:
+      "A clean, modern, and responsive web-based calculator designed for effortless daily calculations, featuring an intuitive UI and smooth user experience.",
+    tech: ["HTML", "CSS", "JavaScript"],
     category: "Web",
-    icon: User,
+    icon: Calculator,
+    color: "from-cyan-500 to-sky-500",
+    github: "https://github.com/MAHESH999866/CalcMate.git",
+    demo: "https://mahesh999866.github.io/CalcMate/",
+  },
+  {
+    title: "Four Up",
+    description:
+      "A Connect Four game with a player login page where users enter names and choose colors. Features a dark violet neon UI and smooth animations.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    category: "Web",
+    icon: Gamepad2,
     color: "from-violet-500 to-purple-500",
+    github: "https://github.com/MAHESH999866/Four-Up.git",
+    demo: "https://mahesh999866.github.io/Four-Up/",
   },
 ];
 
@@ -96,13 +119,17 @@ export function Projects() {
                 </div>
                 <div className="mt-5 flex gap-2">
                   <a
-                    href="#"
+                    href={p.github}
+                    target="_blank"
+                    rel="noreferrer"
                     className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg border border-border text-sm font-semibold hover:bg-accent transition-colors"
                   >
                     <Github className="w-4 h-4" /> GitHub
                   </a>
                   <a
-                    href="#"
+                    href={p.demo}
+                    target="_blank"
+                    rel="noreferrer"
                     className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
                   >
                     <ExternalLink className="w-4 h-4" /> Live Demo

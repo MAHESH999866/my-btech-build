@@ -7,37 +7,36 @@ const groups = [
     icon: Code,
     title: "Programming Languages",
     items: [
-      { name: "C", level: 85 },
-      { name: "Java", level: 80 },
-      { name: "Python", level: 75 },
-      { name: "JavaScript", level: 78 },
+      { name: "Java", level: 70 },
+      { name: "JavaScript", level: 50 },
+      { name: "Python", level: 40 },
     ],
   },
   {
     icon: Layout,
     title: "Frontend",
     items: [
-      { name: "HTML", level: 95 },
-      { name: "CSS", level: 90 },
-      { name: "Tailwind CSS", level: 85 },
-      { name: "React", level: 80 },
-      { name: "TypeScript", level: 70 },
+      { name: "HTML", level: 90 },
+      { name: "CSS", level: 80 },
+      { name: "Tailwind CSS", level: 70 },
+      { name: "React", level: 40 },
     ],
   },
   {
     icon: Wrench,
     title: "Tools",
     items: [
-      { name: "Git", level: 80 },
-      { name: "GitHub", level: 85 },
-      { name: "VS Code", level: 95 },
-      { name: "Figma", level: 65 },
+      { name: "GitHub", level: 80 },
+      { name: "VS Code", level: 90 },
     ],
   },
   {
     icon: Database,
     title: "Databases",
-    items: [{ name: "MySQL", level: 65 }],
+    items: [
+      { name: "SQL", level: 80 },
+      { name: "MySQL", level: 60 },
+    ],
   },
 ];
 

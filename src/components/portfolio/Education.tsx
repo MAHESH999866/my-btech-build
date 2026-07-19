@@ -5,9 +5,9 @@ import { Section, SectionHeader } from "./Section";
 const items = [
   {
     title: "B.Tech in Computer Science",
-    place: "XYZ Institute of Technology",
-    period: "2023 - Present",
-    score: "CGPA: 8.7 / 10",
+    place: "Mohan Babu University",
+    period: "2022 - Present",
+    score: "CGPA: 8.59 / 10",
   },
   {
     title: "Intermediate (12th)",

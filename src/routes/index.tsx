@@ -16,9 +16,9 @@ import { ScrollTop } from "@/components/portfolio/ScrollTop";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Aarav Sharma — B.Tech CSE Student Portfolio" },
-      { name: "description", content: "Final-year B.Tech Computer Science student portfolio. Web developer, problem solver, and lifelong learner." },
-      { property: "og:title", content: "Aarav Sharma — Portfolio" },
+      { title: "Durga MaheswaraRao — B.Tech CSE Student Portfolio" },
+      { name: "description", content: "4th-year B.Tech Computer Science student portfolio. Web developer, problem solver, and lifelong learner." },
+      { property: "og:title", content: "Durga MaheswaraRao — Portfolio" },
       { property: "og:description", content: "Skills, projects, certifications, and contact." },
     ],
   }),

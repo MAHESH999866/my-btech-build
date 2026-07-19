@@ -17,10 +17,10 @@ export function Footer() {
             <span className="grid place-items-center w-9 h-9 rounded-xl bg-primary text-primary-foreground">
               <Code2 className="w-5 h-5" />
             </span>
-            Aarav<span className="text-primary">.</span>
+            Durga<span className="text-primary">.</span>
           </div>
           <p className="mt-3 text-sm text-muted-foreground max-w-xs">
-            Final-year B.Tech CSE student passionate about web development and learning new tech.
+            4th-year B.Tech CSE student passionate about web development and learning new tech.
           </p>
         </div>
         <div>
@@ -37,8 +37,8 @@ export function Footer() {
         </div>
         <div>
           <h4 className="font-bold mb-3">Get in touch</h4>
-          <a href="mailto:aarav.sharma@example.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-            aarav.sharma@example.com
+          <a href="mailto:durga.maheswararao@example.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            durga.maheswararao@example.com
           </a>
           <div className="mt-4 flex gap-2">
             {[
@@ -56,7 +56,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-border py-5 text-center text-sm text-muted-foreground">
-        © 2026 All Rights Reserved. Designed and Developed by <span className="text-foreground font-semibold">Aarav Sharma</span>.
+        © 2026 All Rights Reserved. Designed and Developed by <span className="text-foreground font-semibold">Durga MaheswaraRao</span>.
       </div>
     </footer>
   );

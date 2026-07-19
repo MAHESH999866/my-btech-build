@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, Instagram, Download, ArrowRight, FolderGit2 } from "lucide-react";
+import { Github, Linkedin, Mail, Download, ArrowRight, FolderGit2 } from "lucide-react";
 
 const roles = [
   "Aspiring Software Developer",
@@ -97,10 +97,9 @@ export function Hero() {
 
           <div className="mt-8 flex items-center gap-3">
             {[
-              { Icon: Github, href: "https://github.com", label: "GitHub" },
-              { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-              { Icon: Mail, href: "mailto:hello@example.com", label: "Email" },
-              { Icon: Instagram, href: "https://instagram.com", label: "Instagram" },
+              { Icon: Github, href: "https://github.com/MAHESH999866", label: "GitHub" },
+              { Icon: Linkedin, href: "https://www.linkedin.com/in/durga-maheswararao-pulicharla-681058342/", label: "LinkedIn" },
+              { Icon: Mail, href: "mailto:dmsraop@gmail.com", label: "Email" },
             ].map(({ Icon, href, label }) => (
               <a
                 key={label}

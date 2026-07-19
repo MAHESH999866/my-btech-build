@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Instagram, Code2 } from "lucide-react";
+import { Github, Linkedin, Mail, Code2 } from "lucide-react";
 
 const links = [
   { id: "home", label: "Home" },
@@ -37,15 +37,14 @@ export function Footer() {
         </div>
         <div>
           <h4 className="font-bold mb-3">Get in touch</h4>
-          <a href="mailto:durga.maheswararao@example.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-            durga.maheswararao@example.com
+          <a href="mailto:dmsraop@gmail.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            dmsraop@gmail.com
           </a>
           <div className="mt-4 flex gap-2">
             {[
-              { Icon: Github, href: "https://github.com", label: "GitHub" },
-              { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-              { Icon: Mail, href: "mailto:hello@example.com", label: "Email" },
-              { Icon: Instagram, href: "https://instagram.com", label: "Instagram" },
+              { Icon: Github, href: "https://github.com/MAHESH999866", label: "GitHub" },
+              { Icon: Linkedin, href: "https://www.linkedin.com/in/durga-maheswararao-pulicharla-681058342/", label: "LinkedIn" },
+              { Icon: Mail, href: "mailto:dmsraop@gmail.com", label: "Email" },
             ].map(({ Icon, href, label }) => (
               <a key={label} href={href} target="_blank" rel="noreferrer" aria-label={label}
                 className="w-9 h-9 grid place-items-center rounded-lg border border-border text-muted-foreground hover:text-primary hover:border-primary transition-colors">

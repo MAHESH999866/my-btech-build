@@ -3,10 +3,12 @@ import { Award, ExternalLink } from "lucide-react";
 import { Section, SectionHeader } from "./Section";
 
 const certs = [
-  { title: "Web Development", issuer: "Coursera", year: "2024" },
-  { title: "Python Programming", issuer: "Udemy", year: "2024" },
-  { title: "Java Fundamentals", issuer: "Oracle", year: "2023" },
-  { title: "Data Structures & Algorithms", issuer: "GeeksforGeeks", year: "2024" },
+  {
+    title: "ServiceNow VIP Virtual Internship",
+    issuer: "ServiceNow",
+    year: "2026",
+    link: "https://myskillwallet.ai/dashboard/skillwallet/module/servicenow-system-administrator-6984661dcd34a57368dcc8e6?moduleTab=certificate",
+  },
 ];
 
 export function Certifications() {
@@ -29,7 +31,7 @@ export function Certifications() {
             <div className="p-5">
               <h3 className="font-bold">{c.title}</h3>
               <p className="text-sm text-muted-foreground mt-1">{c.issuer} · {c.year}</p>
-              <a href="#" className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:underline">
+              <a href={c.link} target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:underline">
                 View certificate <ExternalLink className="w-3.5 h-3.5" />
               </a>
             </div>

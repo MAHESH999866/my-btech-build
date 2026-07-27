@@ -3,10 +3,12 @@ import { Award, ExternalLink } from "lucide-react";
 import { Section, SectionHeader } from "./Section";
 
 const certs = [
-  { title: "Web Development", issuer: "Coursera", year: "2024" },
-  { title: "Python Programming", issuer: "Udemy", year: "2024" },
-  { title: "Java Fundamentals", issuer: "Oracle", year: "2023" },
-  { title: "Data Structures & Algorithms", issuer: "GeeksforGeeks", year: "2024" },
+  {
+    title: "ServiceNow VIP Virtual Internship",
+    issuer: "ServiceNow",
+    year: "2026",
+    link: "https://myskillwallet.ai/dashboard/skillwallet/module/servicenow-system-administrator-6984661dcd34a57368dcc8e6?moduleTab=certificate",
+  },
 ];
 
 export function Certifications() {

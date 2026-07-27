@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Download, FileText, Eye } from "lucide-react";
 import { Section, SectionHeader } from "./Section";
+import resumeAsset from "@/assets/resume.pdf.asset.json";
 
 export function Resume() {
   return (
@@ -17,14 +18,23 @@ export function Resume() {
           <FileText className="w-9 h-9 text-primary" />
         </div>
         <div className="text-center sm:text-left">
-          <h3 className="text-xl font-bold">Aarav_Sharma_Resume.pdf</h3>
-          <p className="text-sm text-muted-foreground mt-1">Updated June 2026 · 1 page · PDF</p>
+          <h3 className="text-xl font-bold">Durga_MaheswaraRao_Pulicharla_Resume.pdf</h3>
+          <p className="text-sm text-muted-foreground mt-1">Updated July 2026 · PDF</p>
         </div>
         <div className="flex gap-2 justify-center">
-          <a href="#" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-border text-sm font-semibold hover:bg-accent transition-colors">
+          <a
+            href={resumeAsset.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-border text-sm font-semibold hover:bg-accent transition-colors"
+          >
             <Eye className="w-4 h-4" /> Preview
           </a>
-          <a href="#" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity">
+          <a
+            href={resumeAsset.url}
+            download="Durga_MaheswaraRao_Pulicharla_Resume.pdf"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
+          >
             <Download className="w-4 h-4" /> Download
           </a>
         </div>

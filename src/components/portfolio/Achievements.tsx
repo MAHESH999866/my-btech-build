@@ -3,7 +3,7 @@ import { Trophy, Code2, BookOpenCheck, Star } from "lucide-react";
 import { Section, SectionHeader } from "./Section";
 
 const items = [
-  { icon: Code2, title: "300+ Coding Problems", desc: "Solved across LeetCode, HackerRank, and CodeChef." },
+  { icon: Code2, title: "100+ Coding Problems", desc: "Solved across LeetCode, HackerRank, and CodeChef." },
   { icon: Trophy, title: "Hackathon Participant", desc: "Took part in 3 inter-college hackathons and won 1." },
   { icon: BookOpenCheck, title: "Online Courses", desc: "Completed 10+ online courses on web dev and DSA." },
   { icon: Star, title: "Academic Achievements", desc: "Consistent top 10% rank in college semesters." },

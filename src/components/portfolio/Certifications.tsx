@@ -31,7 +31,7 @@ export function Certifications() {
             <div className="p-5">
               <h3 className="font-bold">{c.title}</h3>
               <p className="text-sm text-muted-foreground mt-1">{c.issuer} · {c.year}</p>
-              <a href="#" className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:underline">
+              <a href={c.link} target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:underline">
                 View certificate <ExternalLink className="w-3.5 h-3.5" />
               </a>
             </div>

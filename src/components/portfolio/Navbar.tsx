@@ -55,12 +55,16 @@ export function Navbar() {
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <button
           onClick={() => handleNav("home")}
-          className="flex items-center gap-2 font-bold text-lg"
+          className="flex items-center gap-2.5 font-bold text-lg group"
         >
-          <span className="grid place-items-center w-9 h-9 rounded-xl bg-primary text-primary-foreground">
-            <Code2 className="w-5 h-5" />
+          <span className="relative grid place-items-center w-10 h-10 rounded-xl bg-gradient-to-br from-primary via-primary to-primary/70 text-primary-foreground shadow-lg shadow-primary/30 group-hover:shadow-primary/50 transition-all group-hover:scale-105">
+            <span className="font-black text-base tracking-tight">DM</span>
+            <span className="absolute -top-0.5 -right-0.5 w-2 h-2 rounded-full bg-emerald-400 ring-2 ring-background" />
           </span>
-          <span className="hidden sm:inline">Aarav<span className="text-primary">.</span></span>
+          <span className="hidden sm:flex flex-col leading-none">
+            <span className="text-[15px] font-extrabold tracking-tight">Durga<span className="text-primary">.</span></span>
+            <span className="text-[10px] font-medium text-muted-foreground tracking-widest uppercase mt-0.5">Developer</span>
+          </span>
         </button>
 
         <div className="hidden lg:flex items-center gap-1">

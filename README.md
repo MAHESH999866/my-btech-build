@@ -54,7 +54,7 @@ Display:
 
  Name (placeholder)
 
- "3rd Year B.Tech Student | Aspiring Software Developer"
+ "Final Year B.Tech Student | Aspiring Software Developer"
 
  Short introduction paragraph
 

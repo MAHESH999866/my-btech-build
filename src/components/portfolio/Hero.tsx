@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Download, ArrowRight, FolderGit2 } from "lucide-react";
+import resumeAsset from "@/assets/resume.pdf.asset.json";
 
 const roles = [
   "Aspiring Software Developer",

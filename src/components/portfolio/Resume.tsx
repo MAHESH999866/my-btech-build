@@ -19,7 +19,7 @@ export function Resume() {
         </div>
         <div className="text-center sm:text-left">
           <h3 className="text-xl font-bold">Durga_MaheswaraRao_Pulicharla_Resume.pdf</h3>
-          <p className="text-sm text-muted-foreground mt-1">Updated July 2026 · PDF</p>
+          <p className="text-sm text-muted-foreground mt-1">Updated August 2026 · PDF</p>
         </div>
         <div className="flex gap-2 justify-center">
           <a

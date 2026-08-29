@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Download, ArrowRight, FolderGit2 } from "lucide-react";
+import resumeAsset from "@/assets/resume.pdf.asset.json";
 
 const roles = [
   "Aspiring Software Developer",
@@ -75,17 +76,18 @@ export function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href="#"
+              href={resumeAsset.url}
+              download="Durga_MaheswaraRao_Pulicharla_Resume.pdf"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-all hover:scale-105 shadow-lg shadow-primary/20"
             >
               <Download className="w-4 h-4" /> Download Resume
             </a>
-            <button
-              onClick={() => scrollTo("contact")}
+            <a
+              href="mailto:dmsraop@gmail.com"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-xl border-2 border-border bg-background font-semibold hover:bg-accent transition-all hover:scale-105"
             >
               <Mail className="w-4 h-4" /> Contact Me
-            </button>
+            </a>
             <button
               onClick={() => scrollTo("projects")}
               className="inline-flex items-center gap-2 px-5 py-3 rounded-xl text-foreground font-semibold hover:text-primary transition-colors group"
